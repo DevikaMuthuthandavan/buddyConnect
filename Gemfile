@@ -30,6 +30,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 #boostrap-sass is depedent of jquery-rails
 gem 'jquery-rails'
 
+gem 'devise'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
