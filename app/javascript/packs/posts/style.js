@@ -1,4 +1,5 @@
-$(document).on('turbolinks:load', function() {
+$(document).ready(function() {
+    console.log("I m here")
     if ($(".single-post-card").length) {
         // set a solid background color style
         if (mode == 1) {
@@ -48,3 +49,5 @@ function randomColor() {
     var color = colorSet[Math.floor(Math.random() * colorSet.length)];
     return color;
 }
+
+console.log("hey")
